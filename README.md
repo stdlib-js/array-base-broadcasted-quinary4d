@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-broadcasted-quinary4d/tags). For example,
+
+```javascript
 import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@v0.1.0-esm/index.mjs';
 ```
 
@@ -117,7 +122,7 @@ The function accepts the following arguments:
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filled4dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d-by@esm/index.mjs';
 import zeros4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros4d@esm/index.mjs';
-import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@v0.1.0-esm/index.mjs';
+import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@esm/index.mjs';
 
 function add( x, y, z, w, v ) {
     return x + y + z + w + v;
