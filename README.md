@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@esm/index.mjs';
+import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@v0.1.1-esm/index.mjs';
 ```
 
 #### bquinary4d( arrays, shapes, fcn )
@@ -117,7 +117,7 @@ The function accepts the following arguments:
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filled4dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d-by@esm/index.mjs';
 import zeros4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros4d@esm/index.mjs';
-import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@esm/index.mjs';
+import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@v0.1.1-esm/index.mjs';
 
 function add( x, y, z, w, v ) {
     return x + y + z + w + v;
