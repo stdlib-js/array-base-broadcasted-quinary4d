@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-broadcasted-quinary4d/tags). For example,
+
+```javascript
 import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@v0.1.1-deno/mod.js';
 ```
 
@@ -112,7 +117,7 @@ The function accepts the following arguments:
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filled4dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d-by@deno/mod.js';
 import zeros4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros4d@deno/mod.js';
-import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@v0.1.1-deno/mod.js';
+import bquinary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quinary4d@deno/mod.js';
 
 function add( x, y, z, w, v ) {
     return x + y + z + w + v;
